@@ -25,13 +25,12 @@ size_t	ft_strlen(const char *str)
 }
 
 // #include <stdio.h>
-
 // int	main(void)
 // {
 // 	char *s = "hello";
 // 	char *s1 = "";
 
 // 	printf("Len of %s -> %zu\n", s, ft_strlen(s));
-// 	printf("Len of %s -> %zu", s1, ft_strlen(s1));
+// 	printf("Len of %s -> %zu\n", s1, ft_strlen(s1));
 
 // }

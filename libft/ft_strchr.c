@@ -27,11 +27,11 @@ char	*ft_strchr(const char *s, int c)
 		return ((char *)&s[i]);
 	return (0);
 }
-// #include <stdio.h>
 
+// #include <stdio.h>
 // int	main(void)
 // {
 // 	char *s = "jiyanwang";
-// 	printf("%s", ft_strchr(s, 'a'));
+// 	printf("%s\n", ft_strchr(s, 'w'));
 // 	return (0);
 // }

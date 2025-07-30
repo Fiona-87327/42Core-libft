@@ -12,8 +12,6 @@
 
 #include "libft.h"
 
-size_t	ft_strlen(const char *str);
-
 size_t	ft_strlcat(char *dest, const char *src, size_t size)
 {
 	size_t	i;
@@ -39,17 +37,13 @@ size_t	ft_strlcat(char *dest, const char *src, size_t size)
 }
 
 // #include <stdio.h>
-
 // int	main(void)
 // {
-// 	char src[7] = "Coucou";
+// 	char src[7] = "Couco";
 // 	char dest[7] = "";
-
 // 	size_t longueur = ft_strlcat(dest, src, 3);
-
 // 	printf("%s\n", src);
 // 	printf("%s\n", dest);
 // 	printf("%zu\n", longueur);
-
 // 	return (0);
 // }

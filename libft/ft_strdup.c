@@ -12,8 +12,6 @@
 
 #include "libft.h"
 
-size_t	ft_strlen(const char *str);
-
 char	*ft_strdup(const char *s)
 {
 	size_t	len;
@@ -32,8 +30,8 @@ char	*ft_strdup(const char *s)
 	}
 	return (dup);
 }
-// #include <stdio.h>
 
+// #include <stdio.h>
 // int main(void)
 // {
 // 	const char *original = "42BangBang!";

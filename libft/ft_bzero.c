@@ -12,8 +12,6 @@
 
 #include "libft.h"
 
-void	*ft_memset(void *s, int c, size_t n);
-
 void	ft_bzero(void *d, size_t n)
 {
 	ft_memset(d, 0, n);

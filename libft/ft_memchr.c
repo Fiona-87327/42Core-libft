@@ -29,10 +29,9 @@ void	*ft_memchr(const void *s, int c, size_t n)
 }
 
 // #include <stdio.h>
-
 // int	main(void)
 // {
-// 	char	buffer[] = "hello world!";
+// 	char	buffer[15] = "hello world!";
 
-// 	printf("%s", ft_memchr(buffer, 'w', 8));
+// 	printf("%s\n", (char *)ft_memchr(buffer, 'w', 15));
 // }

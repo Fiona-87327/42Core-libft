@@ -12,8 +12,6 @@
 
 #include "libft.h"
 
-void	ft_bzero(void *d, size_t n);
-
 void	*ft_calloc(size_t n, size_t size)
 {
 	void	*p;
